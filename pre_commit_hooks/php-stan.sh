@@ -20,9 +20,7 @@
 title="PHPStan"
 
 # Possible command names of this tool
-local_command="phpstan.phar"
-vendor_command="vendor/bin/phpstan"
-global_command="phpstan"
+commands=(phpstan.phar vendor/bin/phpstan bin/phpstan phpstan)
 
 # Print a welcome and locate the exec for this tool
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

@@ -17,9 +17,7 @@
 title="PHP Code Beautifier and Fixer"
 
 # Possible command names of this tool
-local_command="phpcbf.phar"
-vendor_command="vendor/bin/phpcbf"
-global_command="phpcbf"
+commands=(phpcbf.phar vendor/bin/phpcbf phpcbf bin/phpcbf)
 
 # Print a welcome and locate the exec for this tool
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

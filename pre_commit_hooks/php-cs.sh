@@ -17,9 +17,7 @@
 title="PHP Codesniffer"
 
 # Possible command names of this tool
-local_command="phpcs.phar"
-vendor_command="vendor/bin/phpcs"
-global_command="phpcs"
+commands=(phpcs.phar vendor/bin/phpcs phpcs bin/phpcs)
 
 # Print a welcome and locate the exec for this tool
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

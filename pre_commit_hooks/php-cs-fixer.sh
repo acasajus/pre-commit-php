@@ -22,9 +22,7 @@
 title="PHP Code Fixer"
 
 # Possible command names of this tool
-local_command="php-cs-fixer.phar"
-vendor_command="vendor/bin/php-cs-fixer"
-global_command="php-cs-fixer"
+commands=(php-cs-fixer.phar vendor/bin/php-cs-fixer bin/php-cs-fixer php-cs-fixer)
 
 # Print a welcome and locate the exec for this tool
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
